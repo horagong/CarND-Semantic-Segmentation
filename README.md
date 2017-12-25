@@ -4,20 +4,20 @@ I trained FCN-8 architecture with VGG 16 pretained on ImageNet as an encoder. I 
 
 Following are epochs=20, epochs=200, epochs=200 with regularization respectively.
 
-<img src=./20_4_1.png width=200/>
-<img src=./200_4_1.png width=200/>
-<img src=./200_4_R_1.png width=200/>
+<img src=./image/20_4_1.png width=200/>
+<img src=./image/200_4_1.png width=200/>
+<img src=./image/200_4_R_1.png width=200/>
 <br/>
 
-<img src=./20_4_2.png width=200/>
-<img src=./200_4_2.png width=200/>
-<img src=./200_4_R_2.png width=200/>
+<img src=./image/20_4_2.png width=200/>
+<img src=./image/200_4_2.png width=200/>
+<img src=./image/200_4_R_2.png width=200/>
 <br/>
 
 
-<img src=./20_4_3.png width=200/>
-<img src=./200_4_3.png width=200/>
-<img src=./200_4_R_3.png width=200/>
+<img src=./image/20_4_3.png width=200/>
+<img src=./image/200_4_3.png width=200/>
+<img src=./image/200_4_R_3.png width=200/>
 
 
 ---
