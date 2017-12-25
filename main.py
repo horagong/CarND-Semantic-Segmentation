@@ -144,7 +144,7 @@ def run():
     data_dir = './data'
     runs_dir = './runs'
     EPOCHS = 200
-    BATCH_SIZE = 16 #4
+    BATCH_SIZE = 4
     tests.test_for_kitti_dataset(data_dir)
 
     # Download pretrained vgg model
@@ -165,7 +165,7 @@ def run():
 
         # DONE: Build NN using load_vgg, layers, and optimize function
         input_image, keep_prob, layer3_out, layer4_out, layer7_out = load_vgg(sess, vgg_path)
-        
+
         layer = layers(layer3_out, layer4_out, layer7_out, num_classes)
 
         label = tf.placeholder(tf.int32, shape=[None, None, None, num_classes])
